@@ -1,5 +1,4 @@
 import chromadb
-import numpy as np
 import time
 
 #constant variables
@@ -56,4 +55,3 @@ total_time = sum(batch_time)
 # Print the time taken
 print("List of durations for batch insertion: ", batch_time)
 print(f"Time taken to complete the insertion: {total_time} seconds")
-        
